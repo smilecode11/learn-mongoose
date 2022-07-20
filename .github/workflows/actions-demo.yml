@@ -3,7 +3,7 @@ on: [push]
 jobs: 
   build:
     runs-on: ubuntu-latest
-    setps: 
+    steps: 
       - uses: actions/checkout@v2
         with: 
           repository: 'smilecode11/rollup-build-components-test' # 推送到目标库
