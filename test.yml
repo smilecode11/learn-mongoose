@@ -1,0 +1,24 @@
+# scalars 纯量, 不能分割的量
+key: value
+a_number_value: 100
+boolean: true
+#　字符串是不需要使用引号的，但是使用了也不会报错
+quote_string: quote string
+# 多行字符串, 使用竖线
+mutiple_string: |
+  lien one
+  line two
+  line three
+# COLLECTION　TYPES 集合类型
+# 使用缩进表示层级关系
+person:
+  name: smiling
+  age: 28
+  address: 
+    city: hangzhou
+# Sequences 数组或者列表
+hobbies:
+  - Item1
+  - Item2
+  - name: weson
+    value: xyz
