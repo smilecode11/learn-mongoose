@@ -6,7 +6,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
         with: 
-          repository: 'smilecode11/rollup-build-components-test' # 推送到目标库
+          repository: 'smilecode11/rollup-build-components-test' # 源仓库
       - name: List files in the repo
         run: |
           ls ${{ github.workspace }}
